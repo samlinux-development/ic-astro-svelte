@@ -3,6 +3,10 @@
 ## Preparations
 ```sh
 mkdir myapp && cd myapp
+
+# install ic-mops in case you don't have it yet
+npm i -g ic-mops
+
 npx degit https://github.com/samlinux-development/ic-astro-svelte
 npm install
 dfx start --clean --background
