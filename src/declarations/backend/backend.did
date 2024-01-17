@@ -1,0 +1,15 @@
+type Result = 
+ variant {
+   err;
+   ok;
+ };
+type Entry = 
+ record {
+   desc: text;
+   name: text;
+ };
+service : {
+  get: (nat) -> (opt Entry) query;
+  init: () -> (Result);
+  set: (nat, Entry) -> (Result);
+}

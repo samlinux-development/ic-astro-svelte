@@ -1,0 +1,25 @@
+{
+  "name": "b",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@astrojs/svelte": "^5.0.3",
+    "@dfinity/agent": "^0.20.2",
+    "@dfinity/candid": "^0.20.2",
+    "@dfinity/principal": "^0.20.2",
+    "astro": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "process": "^0.11.10",
+    "svelte": "^4.2.8",
+    "typescript": "^5.3.3",
+    "vite-plugin-environment": "^1.1.3"
+  }
+}
