@@ -13,7 +13,7 @@ dfx start --clean --background
 
 ```sh
 # Get the principal of your local dfx identity
-dfx identity use <identity-name>
+dfx identity use <identity-name> || dfx identity use default
 dfx identity get-principal
 
 # replace the adminPrincipal in backend/main.mo with the principal of your local dfx identity
