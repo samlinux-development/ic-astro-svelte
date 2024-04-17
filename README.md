@@ -31,6 +31,11 @@ dfx deploy
 dfx canister call backend installer
 ```
 
+## Run local dev-server
+```sh
+npm run dev
+```
+
 ## Deploy to the Motoko Playground
 
 ```sh 

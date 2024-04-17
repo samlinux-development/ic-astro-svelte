@@ -1,7 +1,7 @@
 {
-  "name": "b",
+  "name": "astro-svelte-ic",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,16 +10,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.4.1",
-    "@astrojs/svelte": "^5.0.3",
-    "@dfinity/agent": "^0.20.2",
-    "@dfinity/candid": "^0.20.2",
-    "@dfinity/principal": "^0.20.2",
-    "astro": "^4.1.2",
-    "dotenv": "^16.3.1",
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/svelte": "^5.4.0",
+    "@dfinity/agent": "^1.2.0",
+    "@dfinity/candid": "^1.2.0",
+    "@dfinity/principal": "^1.2.0",
+    "astro": "^4.6.2",
+    "dotenv": "^16.4.5",
     "process": "^0.11.10",
-    "svelte": "^4.2.8",
-    "typescript": "^5.3.3",
+    "svelte": "^4.2.14",
+    "typescript": "^5.4.5",
     "vite-plugin-environment": "^1.1.3"
   }
 }
